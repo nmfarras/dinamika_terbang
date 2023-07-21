@@ -1,0 +1,224 @@
+                         CONERR - INPUT ERROR CHECKING
+ ERROR CODES - N* DENOTES THE NUMBER OF OCCURENCES OF EACH ERROR
+ A - UNKNOWN VARIABLE NAME
+ B - MISSING EQUAL SIGN FOLLOWING VARIABLE NAME
+ C - NON-ARRAY VARIABLE HAS AN ARRAY ELEMENT DESIGNATION - (N)
+ D - NON-ARRAY VARIABLE HAS MULTIPLE VALUES ASSIGNED
+ E - ASSIGNED VALUES EXCEED ARRAY DIMENSION
+ F - SYNTAX ERROR
+
+******************************  INPUT DATA CARDS  ******************************
+
+ DIM FT                                                                          
+  $FLTCON                                                                        
+   NMACH=1.0,                                                                    
+   MACH(1)=0.4,                                                                  
+   NALT=1.0,                                                                     
+   ALT(1)=0.0,                                                                   
+   NALPHA=12.0,                                                                  
+   ALSCHD(1)= -16.0, -8.0, -6.0, -4.0, -2.0, 0.0,                                
+               2.0, 4.0, 8.0, 9.0,10.0, 12.0$                                    
+  $SYNTHS                                                                        
+   XCG=21.9,                                                                     
+   ZCG=3.125,                                                                    
+   XW=19.1,                                                                      
+   ZW=3.125,                                                                     
+   ALIW=2.5,                                                                     
+   XH=39.2,                                                                      
+   ZH=7.75,                                                                      
+   ALIH=0.0,                                                                     
+   XV=36.0,                                                                      
+   ZV=6.0$                                                                       
+  $BODY                                                                          
+   NX=8.0,                                                                       
+   X(1)=0.0,1.0,2.7,6.0,8.8,28.5,39.4,44.8,                                      
+   R(1)=0.0,1.25,2.1,2.7,2.76,2.7,1.25,0.0,                                      
+   ZU(1)=3.5,4.3,4.8,5.5,7.4,7.4,6.5,5.7,                                        
+   ZL(1)=3.5,2.5,2.25,2.1,2.0,2.2,4.3,5.7,                                       
+   METHOD=1.0$                                                                   
+  $WGPLNF                                                                        
+   CHRDR=9.4,                                                                    
+   CHRDTP=3.01,                                                                  
+   SSPN=25.85,                                                                   
+   SSPNE=23.46,                                                                  
+   SAVSI=1.3,                                                                    
+   CHSTAT=0.25,                                                                  
+   TWISTA=-3.0,                                                                  
+   DHDADI=3.6,                                                                   
+   TYPE=1.0$                                                                     
+ NACA W 5 23014                                                                  
+  $HTPLNF                                                                        
+   CHRDR=4.99,                                                                   
+   CHRDTP=2.48,                                                                  
+   SSPN=9.42,                                                                    
+   SSPNE=9.21,                                                                   
+   SAVSI=5.32,                                                                   
+   CHSTAT=0.25,                                                                  
+   TWISTA=0.0,                                                                   
+   DHDADI=9.2,                                                                   
+   TYPE=1.0$                                                                     
+ NACA H 4 0010                                                                   
+  $VTPLNF                                                                        
+   CHRDTP=3.63,                                                                  
+   SSPNE=8.85,                                                                   
+   SSPN=9.42,                                                                    
+   CHRDR=8.3,                                                                    
+   SAVSI=32.3,                                                                   
+   CHSTAT=0.25,                                                                  
+   TYPE=1.0$                                                                     
+ CASEID TOTAL: Citation II Model 550 Aircraft                                    
+
+           THE FOLLOWING IS A LIST OF ALL INPUT CARDS FOR THIS CASE.
+ DIM FT                                                                          
+  $FLTCON                                                                        
+   NMACH=1.0,                                                                    
+   MACH(1)=0.4,                                                                  
+   NALT=1.0,                                                                     
+   ALT(1)=0.0,                                                                   
+   NALPHA=12.0,                                                                  
+   ALSCHD(1)= -16.0, -8.0, -6.0, -4.0, -2.0, 0.0,                                
+               2.0, 4.0, 8.0, 9.0,10.0, 12.0$                                    
+  $SYNTHS                                                                        
+   XCG=21.9,                                                                     
+   ZCG=3.125,                                                                    
+   XW=19.1,                                                                      
+   ZW=3.125,                                                                     
+   ALIW=2.5,                                                                     
+   XH=39.2,                                                                      
+   ZH=7.75,                                                                      
+   ALIH=0.0,                                                                     
+   XV=36.0,                                                                      
+   ZV=6.0$                                                                       
+  $BODY                                                                          
+   NX=8.0,                                                                       
+   X(1)=0.0,1.0,2.7,6.0,8.8,28.5,39.4,44.8,                                      
+   R(1)=0.0,1.25,2.1,2.7,2.76,2.7,1.25,0.0,                                      
+   ZU(1)=3.5,4.3,4.8,5.5,7.4,7.4,6.5,5.7,                                        
+   ZL(1)=3.5,2.5,2.25,2.1,2.0,2.2,4.3,5.7,                                       
+   METHOD=1.0$                                                                   
+  $WGPLNF                                                                        
+   CHRDR=9.4,                                                                    
+   CHRDTP=3.01,                                                                  
+   SSPN=25.85,                                                                   
+   SSPNE=23.46,                                                                  
+   SAVSI=1.3,                                                                    
+   CHSTAT=0.25,                                                                  
+   TWISTA=-3.0,                                                                  
+   DHDADI=3.6,                                                                   
+   TYPE=1.0$                                                                     
+ NACA W 5 23014                                                                  
+  $HTPLNF                                                                        
+   CHRDR=4.99,                                                                   
+   CHRDTP=2.48,                                                                  
+   SSPN=9.42,                                                                    
+   SSPNE=9.21,                                                                   
+   SAVSI=5.32,                                                                   
+   CHSTAT=0.25,                                                                  
+   TWISTA=0.0,                                                                   
+   DHDADI=9.2,                                                                   
+   TYPE=1.0$                                                                     
+ NACA H 4 0010                                                                   
+  $VTPLNF                                                                        
+   CHRDTP=3.63,                                                                  
+   SSPNE=8.85,                                                                   
+   SSPN=9.42,                                                                    
+   CHRDR=8.3,                                                                    
+   SAVSI=32.3,                                                                   
+   CHSTAT=0.25,                                                                  
+   TYPE=1.0$                                                                     
+ CASEID TOTAL: Citation II Model 550 Aircraft                                    
+
+ INPUT DIMENSIONS ARE IN FT, SCALE FACTOR IS 1.0000
+
+
+
+
+                             AUTOMATED STABILITY AND CONTROL METHODS PER APRIL 1976 VERSION OF DATCOM   
+                                                        WING SECTION DEFINITION
+                                  IDEAL ANGLE OF ATTACK =   1.78973 DEG.
+
+                              ZERO LIFT ANGLE OF ATTACK =  -1.07986 DEG.
+
+                                 IDEAL LIFT COEFFICIENT =    .32672
+
+                  ZERO LIFT PITCHING MOMENT COEFFICIENT =   -.01182
+
+                             MACH ZERO LIFT-CURVE-SLOPE =    .09490 /DEG.
+
+                                    LEADING EDGE RADIUS =    .02160 FRACTION CHORD
+
+                              MAXIMUM AIRFOIL THICKNESS =    .14000 FRACTION CHORD
+
+                                                DELTA-Y =   3.69714 PERCENT CHORD
+
+
+                          MACH=  .4000 LIFT-CURVE-SLOPE =    .10164 /DEG.      XAC =    .25991
+
+
+
+                             AUTOMATED STABILITY AND CONTROL METHODS PER APRIL 1976 VERSION OF DATCOM   
+                                                   HORIZONTAL TAIL SECTION DEFINITION
+                                  IDEAL ANGLE OF ATTACK =    .00000 DEG.
+
+                              ZERO LIFT ANGLE OF ATTACK =    .00000 DEG.
+
+                                 IDEAL LIFT COEFFICIENT =    .00000
+
+                  ZERO LIFT PITCHING MOMENT COEFFICIENT =    .00000
+
+                             MACH ZERO LIFT-CURVE-SLOPE =    .09755 /DEG.
+
+                                    LEADING EDGE RADIUS =    .01102 FRACTION CHORD
+
+                              MAXIMUM AIRFOIL THICKNESS =    .10000 FRACTION CHORD
+
+                                                DELTA-Y =   2.64081 PERCENT CHORD
+
+
+                          MACH=  .4000 LIFT-CURVE-SLOPE =    .10528 /DEG.      XAC =    .25838
+
+
+
+                               AUTOMATED STABILITY AND CONTROL METHODS PER APRIL 1976 VERSION OF DATCOM
+                                         CHARACTERISTICS AT ANGLE OF ATTACK AND IN SIDESLIP
+                                        WING-BODY-VERTICAL TAIL-HORIZONTAL TAIL CONFIGURATION
+                                               TOTAL: Citation II Model 550 Aircraft
+ 
+ -----------------------  FLIGHT CONDITIONS  ------------------------           --------------  REFERENCE DIMENSIONS  ------------
+  MACH    ALTITUDE   VELOCITY    PRESSURE    TEMPERATURE     REYNOLDS             REF.      REFERENCE LENGTH   MOMENT REF. CENTER
+ NUMBER                                                       NUMBER              AREA       LONG.     LAT.     HORIZ      VERT
+             FT       FT/SEC     LB/FT**2       DEG R         1/FT               FT**2        FT        FT        FT        FT
+   .400        .00     446.53   2.1162E+03     518.670     2.8273E+06           320.798      6.753    51.700    21.900     3.125
+                                                                -------------------DERIVATIVE (PER DEGREE)-------------------
+  ALPHA     CD       CL       CM       CN       CA       XCP        CLA          CMA          CYB          CNB          CLB
+ 
+  -16.0     .097   -1.286     .3385  -1.263    -.262    -.268    7.585E-02   -2.427E-02   -6.279E-03   -1.236E-03   -1.833E-03
+   -8.0     .033    -.616     .2191   -.615    -.053    -.357    9.513E-02   -1.830E-02                             -1.742E-03
+   -6.0     .023    -.420     .1808   -.420    -.021    -.430    9.810E-02   -1.870E-02                             -1.718E-03
+   -4.0     .017    -.224     .1443   -.224     .002    -.644    9.719E-02   -1.809E-02                             -1.694E-03
+   -2.0     .015    -.031     .1085   -.032     .014   -3.415    9.610E-02   -1.727E-02                             -1.670E-03
+     .0     .016     .161     .0752    .161     .016     .467    9.674E-02   -1.629E-02                             -1.646E-03
+    2.0     .021     .356     .0433    .356     .008     .122    9.811E-02   -1.563E-02                             -1.621E-03
+    4.0     .029     .553     .0127    .554    -.010     .023    9.888E-02   -1.527E-02                             -1.596E-03
+    8.0     .058     .950    -.0481    .948    -.075    -.051    9.058E-02   -1.712E-02                             -1.546E-03
+    9.0     .066    1.038    -.0657   1.036    -.097    -.063    8.383E-02   -1.774E-02                             -1.536E-03
+   10.0     .075    1.117    -.0836   1.113    -.120    -.075    7.561E-02   -1.921E-02                             -1.528E-03
+   12.0     .095    1.254    -.1273   1.246    -.168    -.102    6.126E-02   -2.449E-02                             -1.513E-03
+
+
+
+                                    ALPHA     Q/QINF    EPSLON  D(EPSLON)/D(ALPHA)
+ 
+                                    -16.0      1.000     -5.186         .344
+                                     -8.0      1.000     -2.431         .407
+                                     -6.0      1.000     -1.586         .428
+                                     -4.0      1.000      -.720         .436
+                                     -2.0      1.000       .158         .445
+                                       .0      1.000      1.059         .459
+                                      2.0      1.000      1.994         .474
+                                      4.0      1.000      2.957         .483
+                                      8.0      1.000      4.903         .455
+                                      9.0      1.000      5.350         .437
+                                     10.0      1.000      5.777         .399
+                                     12.0      1.000      6.461         .342
+  END OF JOB.

@@ -1,0 +1,59 @@
+CASEID Citation II Model 550 Aircraft
+DIM FT
+ $FLTCON 
+  NMACH=1.0,
+  MACH(1)=0.4,
+  NALT=1.0,
+  ALT(1)=0.0,
+  NALPHA=12.0,
+  ALSCHD(1)= -16.0, -8.0, -6.0, -4.0, -2.0, 0.0,
+              2.0, 4.0, 8.0, 9.0,10.0, 12.0$
+ $SYNTHS
+  XCG=21.9,
+  ZCG=3.125,
+  XW=19.1,
+  ZW=3.125,
+  ALIW=2.5,
+  XH=39.2, 
+  ZH=7.75,
+  ALIH=0.0,
+  XV=36.0,
+  ZV=6.0$
+ $BODY
+  NX=8.0,
+  X(1)=0.0,1.0,2.7,6.0,8.8,28.5,39.4,44.8,
+  R(1)=0.0,1.25,2.1,2.7,2.76,2.7,1.25,0.0,
+  ZU(1)=3.5,4.3,4.8,5.5,7.4,7.4,6.5,5.7,
+  ZL(1)=3.5,2.5,2.25,2.1,2.0,2.2,4.3,5.7,
+  METHOD=1.0$
+ $WGPLNF
+  CHRDR=9.4,
+  CHRDTP=3.01,
+  SSPN=25.85,
+  SSPNE=23.46,
+  SAVSI=1.3,
+  CHSTAT=0.25,
+  TWISTA=-3.0,
+  DHDADI=3.6,
+  TYPE=1.0$
+NACA W 5 23014
+ $HTPLNF
+  CHRDR=4.99,
+  CHRDTP=2.48,
+  SSPN=9.42,
+  SSPNE=9.21,
+  SAVSI=5.32,
+  CHSTAT=0.25,
+  TWISTA=0.0,
+  DHDADI=9.2,
+  TYPE=1.0$
+NACA H 4 0010
+ $VTPLNF
+  CHRDTP=3.63,
+  SSPNE=8.85,
+  SSPN=9.42,
+  CHRDR=8.3,
+  SAVSI=32.3,
+  CHSTAT=0.25,
+  TYPE=1.0$
+NACA V 4 0012

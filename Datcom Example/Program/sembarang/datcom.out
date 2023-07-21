@@ -1,0 +1,141 @@
+ THIS SOFTWARE AND ANY ACCOMPANYING DOCUMENTATION
+ IS RELEASED "AS IS".  THE U.S. GOVERNMENT MAKES NO
+ WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, CONCERNING
+ THIS SOFTWARE AND ANY ACCOMPANYING DOCUMENTATION,
+ INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF
+ MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+ IN NO EVENT WILL THE U.S. GOVERNMENT BE LIABLE FOR ANY
+ DAMAGES, INCLUDING LOST PROFITS, LOST SAVINGS OR OTHER
+ INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE 
+ USE, OR INABILITY TO USE, THIS SOFTWARE OR ANY
+ ACCOMPANYING DOCUMENTATION, EVEN IF INFORMED IN ADVANCE
+ OF THE POSSIBILITY OF SUCH DAMAGES.
+  ****************************************************
+  *    USAF STABILITY AND CONTROL  DIGITAL DATCOM    *
+  *    PROGRAM REV. JAN 96   DIRECT INQUIRIES TO:    *
+  *    WRIGHT LABORATORY  (WL/FIGC)  ATTN: W. BLAKE  *
+  *      WRIGHT PATTERSON AFB, OHIO  45433           *
+  *    PHONE (513) 255-6764,   FAX (513) 258-4054    *
+  ****************************************************
+ Preparing to start the big loop
+ At 1000
+1                         CONERR - INPUT ERROR CHECKING
+0 ERROR CODES - N* DENOTES THE NUMBER OF OCCURENCES OF EACH ERROR
+0 A - UNKNOWN VARIABLE NAME
+0 B - MISSING EQUAL SIGN FOLLOWING VARIABLE NAME
+0 C - NON-ARRAY VARIABLE HAS AN ARRAY ELEMENT DESIGNATION - (N)
+0 D - NON-ARRAY VARIABLE HAS MULTIPLE VALUES ASSIGNED
+0 E - ASSIGNED VALUES EXCEED ARRAY DIMENSION
+0 F - SYNTAX ERROR
+
+0******************************  INPUT DATA CARDS  ******************************
+
+ CASEID WING_B777kw_13601011                                                     
+ DIM M                                                                           
+  $FLTCON                                                                        
+   NMACH=1.0,                                                                    
+   MACH=0.75,                                                                    
+   STMACH=0.9,                                                                   
+   NALT=1.0,                                                                     
+   ALT=11000.0,                                                                  
+   NALPHA=13.0,                                                                  
+   ALSCHD=-4.0,-2.0,0.0,2.0,4.0,6.0,                                             
+           8.0,10.0,12.0,14.0,16.0,18.0,                                         
+           20.0$                                                                 
+  $SYNTHS                                                                        
+   XCG=0.0,                                                                      
+   ZCG=0.0$		                                                                    
+  $WGPLNF                                                                        
+   CHRDR=11.88,                                                                  
+   CHRDTP=2.08,                                                                  
+   SSPN=30.0,                                                                    
+   SSPNE=26.94,                                                                  
+   SAVSI=30.0,                                                                   
+   CHSTAT=0.25,                                                                  
+   TWISTA=0.0,                                                                   
+   DHDADI=5.0,                                                                   
+   TYPE=1.0$                                                                     
+ NACA-W-6-63-210                                                                 
+1          THE FOLLOWING IS A LIST OF ALL INPUT CARDS FOR THIS CASE.
+0
+ CASEID WING_B777kw_13601011                                                     
+ DIM M                                                                           
+  $FLTCON                                                                        
+   NMACH=1.0,                                                                    
+   MACH=0.75,                                                                    
+   STMACH=0.9,                                                                   
+   NALT=1.0,                                                                     
+   ALT=11000.0,                                                                  
+   NALPHA=13.0,                                                                  
+   ALSCHD=-4.0,-2.0,0.0,2.0,4.0,6.0,                                             
+           8.0,10.0,12.0,14.0,16.0,18.0,                                         
+           20.0$                                                                 
+  $SYNTHS                                                                        
+   XCG=0.0,                                                                      
+   ZCG=0.0$		                                                                    
+  $WGPLNF                                                                        
+   CHRDR=11.88,                                                                  
+   CHRDTP=2.08,                                                                  
+   SSPN=30.0,                                                                    
+   SSPNE=26.94,                                                                  
+   SAVSI=30.0,                                                                   
+   CHSTAT=0.25,                                                                  
+   TWISTA=0.0,                                                                   
+   DHDADI=5.0,                                                                   
+   TYPE=1.0$                                                                     
+ NACA-W-6-63-210                                                                 
+0 INPUT DIMENSIONS ARE IN M , SCALE FACTOR IS 1.0000
+
+ Return to main program from M01O01
+1                             AUTOMATED STABILITY AND CONTROL METHODS PER APRIL 1976 VERSION OF DATCOM   
+                                                        WING SECTION DEFINITION
+0                                 IDEAL ANGLE OF ATTACK =   0.00000 DEG.
+
+                              ZERO LIFT ANGLE OF ATTACK =  -1.58258 DEG.
+
+                                 IDEAL LIFT COEFFICIENT =   0.20000
+
+                  ZERO LIFT PITCHING MOMENT COEFFICIENT =  -0.04485
+
+                             MACH ZERO LIFT-CURVE-SLOPE =   0.10288 /DEG.
+
+                                    LEADING EDGE RADIUS =   0.00690 FRACTION CHORD
+
+                              MAXIMUM AIRFOIL THICKNESS =   0.10000 FRACTION CHORD
+
+                                                DELTA-Y =   2.18461 PERCENT CHORD
+
+
+0                         MACH= 0.7500 LIFT-CURVE-SLOPE =   0.14965 /DEG.      XAC =   0.26099
+ Return to main program from M50O62
+ Return to main program from M02O02
+ Return to main program from M51O63
+1                               AUTOMATED STABILITY AND CONTROL METHODS PER APRIL 1976 VERSION OF DATCOM
+                                         CHARACTERISTICS AT ANGLE OF ATTACK AND IN SIDESLIP
+                                                      WING ALONE CONFIGURATION
+                                                       WING_B777kw_13601011
+ 
+ -----------------------  FLIGHT CONDITIONS  ------------------------           --------------  REFERENCE DIMENSIONS  ------------
+  MACH    ALTITUDE   VELOCITY    PRESSURE    TEMPERATURE     REYNOLDS             REF.      REFERENCE LENGTH   MOMENT REF. CENTER
+ NUMBER                                                       NUMBER              AREA       LONG.     LAT.     HORIZ      VERT
+              M        M/SEC      N/ M**2       DEG K         1/ M                M**2         M         M         M         M
+0 0.750   11000.00     221.34   2.2700E+04     216.773     5.6515E+06           418.800      8.127    60.000     0.000     0.000
+0                                                               -------------------DERIVATIVE (PER DEGREE)-------------------
+0 ALPHA     CD       CL       CM       CN       CA       XCP        CLA          CMA          CYB          CNB          CLB
+0
+   -4.0    0.007   -0.190    0.2277  -0.190   -0.006   -1.197    7.700E-02   -1.027E-01   -5.530E-04    1.902E-05   -6.144E-04
+   -2.0    0.005   -0.038    0.0237  -0.038    0.004   -0.628    7.656E-02   -1.022E-01   -5.554E-04    7.410E-07   -1.067E-03
+    0.0    0.006    0.116   -0.1812   0.116    0.006   -1.561    7.641E-02   -1.019E-01   -5.548E-04    7.088E-06   -1.522E-03
+    2.0    0.009    0.268   -0.3841   0.268    0.000   -1.432    7.526E-02   -1.007E-01   -5.496E-04    3.780E-05   -1.973E-03
+    4.0    0.015    0.417   -0.5839   0.417   -0.015   -1.400    7.346E-02   -9.893E-02   -5.391E-04    9.152E-05   -2.415E-03
+    6.0    0.022    0.562   -0.7798   0.561   -0.037   -1.390    7.082E-02   -9.639E-02   -5.241E-04    1.661E-04   -2.845E-03
+    8.0    0.031    0.700   -0.9695   0.698   -0.066   -1.389    6.233E-02   -8.624E-02   -5.096E-04    2.581E-04   -3.255E-03
+   10.0    0.040    0.811   -1.1248   0.806   -0.101   -1.396    4.807E-02   -6.845E-02   -4.885E-04    3.462E-04   -3.584E-03
+   12.0    0.048    0.893   -1.2433   0.883   -0.139   -1.408    3.281E-02   -4.920E-02   -4.646E-04    4.192E-04   -3.825E-03
+   14.0    0.053    0.942   -1.3215   0.927   -0.177   -1.425    2.411E-02   -3.879E-02   -4.420E-04    4.673E-04   -3.973E-03
+   16.0    0.057    0.989   -1.3984   0.967   -0.218   -1.447    1.813E-02   -3.197E-02   -4.347E-04    5.147E-04   -4.111E-03
+   18.0    0.060    1.015     NA      0.984   -0.256    NA       6.341E-03      NA        -4.772E-04    5.414E-04   -4.188E-03
+   20.0    0.060    1.015     NA      0.974   -0.291    NA      -6.843E-03      NA        -6.055E-04    5.409E-04   -4.187E-03
+0*** NA PRINTED WHEN METHOD NOT APPLICABLE
+ Return to main program from M57O71
+1 END OF JOB.
