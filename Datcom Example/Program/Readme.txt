@@ -20,4 +20,4 @@ Some users running the free version of Datcom+ under Windows 10 have reported pr
 
 5.  You should be able to run the programs now.
 
- 
+ cc: http://www.holycows.net/datcom/buy.html
